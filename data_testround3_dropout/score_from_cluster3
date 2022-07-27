@@ -1,0 +1,7 @@
+#sklearn.metrics.rand_score(Y_test, y_pred_kmeans)
+
+These structures but with dropout
+x² intermediate layers test-score = 0.3816292629262926
+x² removed layers test-score = 0.6965369136913692.
+(with dropout in decoded)=0.6667628962896289
+x² large filter layer test-score = 0.5656821682168217

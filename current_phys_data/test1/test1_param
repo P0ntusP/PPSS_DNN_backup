@@ -1,0 +1,2 @@
+autoencode 100 epochs sigma 1 = 2
+otherwise same arch

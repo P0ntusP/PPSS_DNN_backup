@@ -1,0 +1,10 @@
+#acc=0.9075000286102295
+inpx = Input(shape=inpx)
+layer1 = Conv2D(32, kernel_size=(3, 3), activation='relu')(inpx)
+layer2 = MaxPooling2D(pool_size=(3, 3))(layer1)
+layer3 = Conv2D(64, (3, 3), activation='relu')(layer2)
+layer5 = Flatten()(layer3)
+layer6 = Dense(250, activation='relu')(layer5)
+layer7 = Dense(70, activation="relu")(layer6)
+layer8 = Dense(4, activation="linear")(layer7)
+layer9 = Dense(10, activation='softmax')(layer8)

@@ -1,0 +1,13 @@
+#sklearn.metrics.rand_score(Y_test, y_pred_kmeans)
+
+x² test 1 test-score = 0.8736765476547654
+x² intermediate layers test-score = 0.8054647864786478(nonsym)
+sym=0.7716283428342834(did not help)
+x² removed layers test-score = 0.8763259525952595
+x² large filter layer test-score = 0.880161596159616
+
+Triangle test 1 test-score = 0.870975897589759
+Triangle intermediate layers test-score = 0.6784066806680668
+Triangle removed layers test-score = 0.8664723672367237
+Triangle large filter layer test-score = 0.8303948794879488
+

@@ -1,0 +1,6 @@
+#sklearn.metrics.rand_score(Y_test, y_pred_kmeans)
+
+Triangle test-score = 0.870975897589759
+square test-score = 0.7324699669966996
+x² test-score = 0.8736765476547654
+log test-score = 0.865229302930293

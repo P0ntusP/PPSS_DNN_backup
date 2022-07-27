@@ -1,0 +1,29 @@
+on this arch
+	batch_size = 256
+	epochs = 50
+	bottle_dim = 4
+	# Neural net
+	########################################################################################################################
+	#Input layer
+	input_img = Input(shape=(784,))
+	# architecture
+	encoded = Dense(units=400, activation='relu')(input_img)
+	encoded = Dense(units=100, activation='relu')(encoded)
+	encoded = Dense(units=29, activation='relu')(encoded)
+	encoded = Dense(units=bottle_dim, activation='linear')(encoded)
+
+	decoded = Dense(units=29, activation='relu')(encoded)
+	decoded = Dense(units=100, activation='relu')(decoded)
+	decoded = Dense(units=400, activation='relu')(decoded)
+	# output layer
+	decoded = Dense(units=784, activation='sigmoid')(decoded)
+
+test what optimizer and loss to use:
+method:
+test all losses on "adam"
+select winner
+then test all optimizers on winner loss-func.
+
+then test 4, 5, 6 bottle dim
+
+then save pics then do blurr 0.5, 1, 2

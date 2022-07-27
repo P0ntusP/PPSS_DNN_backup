@@ -1,0 +1,20 @@
+on "adam"
+optimize for score:
+loss-function:score
+
+
+binary_crossentropy:0.5405688434421722
+categorical_crossentropy: incompatible
+sparse_categorical_crossentropy : incompatible
+poisson : 0.511428376418821
+kl_divergence : 0.612657577878894
+mean_squared_error : 0.6119824641232061(worse accthan above)
+mean_absolute_error : 0.6121843342167108
+mean_absolute_percentage_error : 0.6117402770138507
+mean_squared_logarithmic_error : 0.6178184459222961
+cosine_similarity : 0.5663213510675533
+huber : 0.6101516575828791
+log_cosh : 0.6137778338916946
+hinge : 0.6124249862493125
+squared_hinge: 0.6115460523026152
+categorical_hinge : 0.6033259312965649

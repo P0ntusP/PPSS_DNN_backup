@@ -1,0 +1,10 @@
+#sklearn.metrics.rand_score(Y_test, y_pred_kmeans)
+
+Bottleneck dimension:test-score=
+2:test-score=0.6789975597559756
+3:test-score=0.8226617661766177
+4:test-score=0.832206900690069
+5:test-score=0.8971683768376838
+6:test-score=0.9073393139313931
+8:test-score=0.9164444644464447
+10:test-score=0.8828894089408941
